@@ -1,4 +1,4 @@
-[5:24 PM, 10/14/2018] +1 (787) 391-8188: import os
+import os
 import pygame
 from tkinter.filedialog import askdirectory
 
