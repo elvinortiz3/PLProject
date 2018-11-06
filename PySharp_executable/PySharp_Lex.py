@@ -5,12 +5,25 @@ import sys
 
 # Create Tokens
 
-tokens = [
 
+keywords = (
 
-]
+    "PlayScale", "CreateScale", "Scale"
+
+)
+
+tokens = keywords + (
+
+    "Harmonic", "Natural", "Melodic",
+    "A", "B", "C", "D", "E", "F", "G",
+
+)
 
 reserved = {
+
+    "A", "B", "C", "D", "E", "F", "G",
+    "CreateScale", "Scale", "PlayScale",
+    "Harmonic", "Natural", "Melodic"
 
 }
 
