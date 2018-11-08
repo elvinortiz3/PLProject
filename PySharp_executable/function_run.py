@@ -1,5 +1,6 @@
 import sys
 
+
 def function_parser(func, expression=None):
     if func == "createScale":
         createScale(expression)
