@@ -140,7 +140,7 @@ def delete_node(name, t=None):
 
 def p_expr(p):
     '''
-    expr :
+    expr : A | B | C | D | E | F | G
      '''
     p[0] = p[1]
 
@@ -158,31 +158,30 @@ def p_term(p):
 
 
 def p_func(p):
-    def p_func(p):
-        '''
-        func : createScale exp
-             | playScale exp
-             | Scale exp
-             | HELP
-             | EXIT
-        '''
-        if str(p[1]) == "HELP" or str(p[1]) == "EXIT":
-            function_run.function_parser(p[1])
+    '''
+    func : createScale exp
+         | playScale exp
+         | Scale exp
+         | HELP
+         | EXIT
+    '''
+    if str(p[1]) == "HELP" or str(p[1]) == "EXIT":
+        function_run.function_parser(p[1])
+    else:
+        expression = get_node(str(p[2]))
+        if expression is None:
+            print(p[2] + " is not a declared expression.")
+        elif len(expression) < 3:
+            print(p[2] + " is an input signal, not an expression.")
         else:
-            expression = get_node(str(p[2]))
-            if expression is None:
-                print(p[2] + " is not a declared expression.")
-            elif len(expression) < 3:
-                print(p[2] + " is an input signal, not an expression.")
+            if p[1] == "DEL":
+                temp = p[2]
+                delete_node(p[2])
+                print("Deleted expession: ", temp)
+                temp = None
+                global forest
             else:
-                if p[1] == "DEL":
-                    temp = p[2]
-                    delete_node(p[2])
-                    print("Deleted expession: ", temp)
-                    temp = None
-                    global forest
-                else:
-                    function_run.function_parser(p[1], expression)
+                function_run.function_parser(p[1], expression)
 
 
 def p_error(p):

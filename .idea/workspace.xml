@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e36ef80-1fcb-4b02-b795-c0e48f6ef5fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PySharp_executable/function_run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PySharp_executable/PySharp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PySharp_executable/env_Converter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PySharp_executable/PySharp_Lex.py" beforeDir="false" afterPath="$PROJECT_DIR$/PySharp_executable/PySharp_Lex.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PySharp_executable/PySharp_Parse.py" beforeDir="false" afterPath="$PROJECT_DIR$/PySharp_executable/PySharp_Parse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PySharp_executable/function_run.py" beforeDir="false" afterPath="$PROJECT_DIR$/PySharp_executable/function_run.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,36 +46,37 @@
     <session id="1931984278">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.4" value="3" />
+          <entry key="project.open.time.4" value="4" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="285" />
-          <entry key="txt" value="62" />
+          <entry key="py" value="447" />
+          <entry key="txt" value="168" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="62" />
-          <entry key="Python" value="285" />
+          <entry key="PLAIN_TEXT" value="168" />
+          <entry key="Python" value="447" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="py" value="4" />
+          <entry key="py" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="4" />
+          <entry key="Python" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -85,8 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PySharp_executable/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="357">
+              <caret line="25" column="16" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -94,25 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PySharp_executable/PySharp_Lex.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PySharp_executable/PySharp_Parse.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="171" column="33" selection-start-line="171" selection-start-column="25" selection-end-line="171" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-                <element signature="e#132#1195#0" />
-                <element signature="e#1225#1889#0" />
-                <element signature="e#1923#2934#0" />
-                <element signature="e#3014#4171#0" />
-                <element signature="e#4504#4519#0" />
-              </folding>
+            <state relative-caret-position="459">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -120,8 +105,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PySharp_executable/function_run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+            <state relative-caret-position="328">
+              <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PySharp_executable/PySharp.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PySharp_executable/env_Converter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="60" column="18" selection-start-line="53" selection-end-line="62" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,7 +168,9 @@
         <option value="$PROJECT_DIR$/PySharp_executable/PySharp_Converter.py" />
         <option value="$PROJECT_DIR$/PySharp_executable/PySharp_Lex.py" />
         <option value="$PROJECT_DIR$/PySharp_executable/PySharp_Parse.py" />
+        <option value="$PROJECT_DIR$/PySharp_executable/scales/env_Converter.py" />
         <option value="$PROJECT_DIR$/PySharp_executable/function_run.py" />
+        <option value="$PROJECT_DIR$/PySharp_executable/PySharp.py" />
       </list>
     </option>
   </component>
@@ -178,7 +192,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,6 +208,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
@@ -212,6 +226,7 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\Python\PLProject\PySharp_executable" />
+      <recent name="D:\Code\Python\PLProject\PySharp_executable\scales" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -226,7 +241,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.function_run">
+    <configuration name="Main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PySharp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PySharp_executable" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PySharp_executable/Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PySharp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -249,6 +285,38 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="function_run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PySharp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PySharp_executable" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PySharp_executable/function_run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Main" />
+      <item itemvalue="Python.Main (1)" />
+      <item itemvalue="Python.function_run" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.function_run" />
+        <item itemvalue="Python.Main (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -262,6 +330,7 @@
       <updated>1539549712807</updated>
       <workItem from="1541527868094" duration="246000" />
       <workItem from="1541528153650" duration="3000" />
+      <workItem from="1541598648840" duration="18000" />
     </task>
     <task id="LOCAL-00001" summary="Removed Dup Text">
       <created>1540835576448</created>
@@ -298,24 +367,38 @@
       <option name="project" value="LOCAL" />
       <updated>1540837184452</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="partially implemented Lex, Parser, and the function run">
+      <created>1541531564676</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1541531564676</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Uploaded Scale.mp3 files for all 3 scales">
+      <created>1541702471445</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1541702471445</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="249000" />
+    <option name="totallyTimeSpent" value="267000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.11434237" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.21678784" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Capture Tool" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.12340426" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.41702127" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.32907802" />
       <window_info anchor="bottom" id="Message" order="3" />
@@ -353,27 +436,15 @@
     <MESSAGE value="Created Files" />
     <MESSAGE value="BaseFile Created" />
     <MESSAGE value="added .gitIgnore" />
-    <option name="LAST_COMMIT_MESSAGE" value="added .gitIgnore" />
+    <MESSAGE value="partially implemented Lex, Parser, and the function run" />
+    <MESSAGE value="Uploaded Scale.mp3 files for all 3 scales" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uploaded Scale.mp3 files for all 3 scales" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PySharp_executable/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PySharp_executable/PySharp_Lex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -384,24 +455,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PySharp_executable/function_run.py">
+    <entry file="file://$PROJECT_DIR$/PySharp_executable/scales/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PySharp_executable/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        <state relative-caret-position="357">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PySharp_executable/PySharp_Parse.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="171" column="33" selection-start-line="171" selection-start-column="25" selection-end-line="171" selection-end-column="33" />
+        <state relative-caret-position="680">
+          <caret line="161" column="9" selection-start-line="161" selection-start-column="9" selection-end-line="161" selection-end-column="9" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
-            <element signature="e#132#1195#0" />
-            <element signature="e#1225#1889#0" />
-            <element signature="e#1923#2934#0" />
-            <element signature="e#3014#4171#0" />
-            <element signature="e#4504#4519#0" />
+            <element signature="e#146#1213#0" />
+            <element signature="e#1240#1904#0" />
+            <element signature="e#1939#2950#0" />
+            <element signature="e#3030#4187#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PySharp_executable/PySharp_Lex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PySharp_executable/env_Converter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="60" column="18" selection-start-line="53" selection-end-line="62" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PySharp_executable/function_run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PySharp_executable/PySharp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
