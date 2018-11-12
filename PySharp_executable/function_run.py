@@ -1,15 +1,8 @@
 import sys
-from PySharp_executable import env_Converter as conv
 
 
 def function_parser(func, expression=None):
-    if func == "createScale":
-        createScale(expression)
-    elif func == "playScale":
-        playScale(expression)
-    elif func == "Scale":
-        Scale(expression)
-    elif func == "HELP":
+    if func == "HELP":
         show_help()
     elif func == "EXIT":
         exit_case()
@@ -17,21 +10,18 @@ def function_parser(func, expression=None):
         print("Invalid function.")
 
 
-def createScale(env):
+def createScale(env1,env2):
     print("Generating Scale:\n")
-    expression = conv.env_to_expr(env)
-    print(expression)
+    print(env1)
+    print(env2)
+
+
 
 
 def playScale(env):
     print("Playing Scale " + str(env[0]))
-    expression = conv.env_to_expr(env)
-    print(expression)
 
-def Scale(env):
-    print("Getting Scale")
-    expression = conv.env_to_expr(env)
-    print(expression)
+
 
 def show_help():
     str = '''

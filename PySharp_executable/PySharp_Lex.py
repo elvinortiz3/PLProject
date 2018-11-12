@@ -2,32 +2,20 @@ import ply.lex as lex
 import sys
 
 # Implementation of lexical analyzer
-
-# Create Tokens
-
-
-keywords = (
-
-    "PlayScale", "CreateScale", "Scale"
-
-)
-
-tokens = keywords + (
-
-    "Harmonic", "Natural", "Melodic",
-    "A", "B", "C", "D", "E", "F", "G",
-
-)
-
 reserved = {
 
-    "A", "B", "C", "D", "E", "F", "G",
-    "CreateScale", "Scale", "PlayScale",
-    "Harmonic", "Natural", "Melodic"
+    "playScale": "playScale",
+    "createScale": "createScale",
+    "HELP": "HELP",
+    "EXIT": "EXIT",
+    "NAME":"NAME"
 
 }
 
-t_EQUALS = r'\='
+
+# Create Tokens
+tokens = list(reserved.values())
+
 t_ignore = r' '
 
 
@@ -40,9 +28,10 @@ def t_NAME(t):
     return t
 
 
+
 def t_error(t):
     print("Unrecognized Character(s)")
-    # print(t)
+    print(t)
     t.lexer.skip(1)
 
 
