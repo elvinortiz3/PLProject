@@ -24,9 +24,15 @@ def p_assign_createScale(p):
 def p_assign_playScale(p):
     '''
     assign_playScale : playScale assign_createScale
+                    | playScale
     '''
-    p[0] = p[1] + p[2]
-    function_run.playScale(p[2])
+    if(len(p)<=2):
+        p[0] = p[1]
+        function_run.playScale("Previous")
+    else:
+        p[0] = p[1] + p[2]
+        function_run.playScale(p[2])
+
 
 
 def p_func(p):

@@ -8,7 +8,7 @@ print("")
 
 while True:
     try:
-        s = input('>>')
+        s = input('PySharp >>')
     except EOFError:
         break
     print("")
