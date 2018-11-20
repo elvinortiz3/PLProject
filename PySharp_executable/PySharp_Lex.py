@@ -8,7 +8,8 @@ reserved = {
     "createScale": "createScale",
     "HELP": "HELP",
     "EXIT": "EXIT",
-    "NAME":"NAME"
+    "NAME": "NAME",
+    "EQUALS": "EQUALS"
 
 }
 
@@ -17,7 +18,7 @@ reserved = {
 tokens = list(reserved.values())
 
 t_ignore = r' '
-
+t_EQUALS = r'='
 
 def t_NAME(t):
     r'[a-zA-Z][a-zA-Z0-9]*'
