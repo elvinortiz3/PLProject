@@ -1,0 +1,171 @@
+Created by PLY version 3.11 (http://www.dabeaz.com/ply)
+
+Grammar
+
+Rule 0     S' -> assign
+Rule 1     assign -> func
+Rule 2     assign -> NAME EQUALS assign_createScale
+Rule 3     assign_createScale -> createScale NAME NAME
+Rule 4     assign_playScale -> playScale assign_createScale
+Rule 5     assign_playScale -> playScale
+Rule 6     assign_playScale -> playScale NAME
+Rule 7     func -> assign_createScale
+Rule 8     func -> assign_playScale
+Rule 9     func -> HELP
+Rule 10    func -> EXIT
+
+Terminals, with rules where they appear
+
+EQUALS               : 2
+EXIT                 : 10
+HELP                 : 9
+NAME                 : 2 3 3 6
+createScale          : 3
+error                : 
+playScale            : 4 5 6
+
+Nonterminals, with rules where they appear
+
+assign               : 0
+assign_createScale   : 2 4 7
+assign_playScale     : 8
+func                 : 1
+
+Parsing method: LALR
+
+state 0
+
+    (0) S' -> . assign
+    (1) assign -> . func
+    (2) assign -> . NAME EQUALS assign_createScale
+    (7) func -> . assign_createScale
+    (8) func -> . assign_playScale
+    (9) func -> . HELP
+    (10) func -> . EXIT
+    (3) assign_createScale -> . createScale NAME NAME
+    (4) assign_playScale -> . playScale assign_createScale
+    (5) assign_playScale -> . playScale
+    (6) assign_playScale -> . playScale NAME
+
+    NAME            shift and go to state 3
+    HELP            shift and go to state 6
+    EXIT            shift and go to state 7
+    createScale     shift and go to state 8
+    playScale       shift and go to state 9
+
+    assign                         shift and go to state 1
+    func                           shift and go to state 2
+    assign_createScale             shift and go to state 4
+    assign_playScale               shift and go to state 5
+
+state 1
+
+    (0) S' -> assign .
+
+
+
+state 2
+
+    (1) assign -> func .
+
+    $end            reduce using rule 1 (assign -> func .)
+
+
+state 3
+
+    (2) assign -> NAME . EQUALS assign_createScale
+
+    EQUALS          shift and go to state 10
+
+
+state 4
+
+    (7) func -> assign_createScale .
+
+    $end            reduce using rule 7 (func -> assign_createScale .)
+
+
+state 5
+
+    (8) func -> assign_playScale .
+
+    $end            reduce using rule 8 (func -> assign_playScale .)
+
+
+state 6
+
+    (9) func -> HELP .
+
+    $end            reduce using rule 9 (func -> HELP .)
+
+
+state 7
+
+    (10) func -> EXIT .
+
+    $end            reduce using rule 10 (func -> EXIT .)
+
+
+state 8
+
+    (3) assign_createScale -> createScale . NAME NAME
+
+    NAME            shift and go to state 11
+
+
+state 9
+
+    (4) assign_playScale -> playScale . assign_createScale
+    (5) assign_playScale -> playScale .
+    (6) assign_playScale -> playScale . NAME
+    (3) assign_createScale -> . createScale NAME NAME
+
+    $end            reduce using rule 5 (assign_playScale -> playScale .)
+    NAME            shift and go to state 13
+    createScale     shift and go to state 8
+
+    assign_createScale             shift and go to state 12
+
+state 10
+
+    (2) assign -> NAME EQUALS . assign_createScale
+    (3) assign_createScale -> . createScale NAME NAME
+
+    createScale     shift and go to state 8
+
+    assign_createScale             shift and go to state 14
+
+state 11
+
+    (3) assign_createScale -> createScale NAME . NAME
+
+    NAME            shift and go to state 15
+
+
+state 12
+
+    (4) assign_playScale -> playScale assign_createScale .
+
+    $end            reduce using rule 4 (assign_playScale -> playScale assign_createScale .)
+
+
+state 13
+
+    (6) assign_playScale -> playScale NAME .
+
+    $end            reduce using rule 6 (assign_playScale -> playScale NAME .)
+
+
+state 14
+
+    (2) assign -> NAME EQUALS assign_createScale .
+
+    $end            reduce using rule 2 (assign -> NAME EQUALS assign_createScale .)
+
+
+state 15
+
+    (3) assign_createScale -> createScale NAME NAME .
+
+    $end            reduce using rule 3 (assign_createScale -> createScale NAME NAME .)
+
