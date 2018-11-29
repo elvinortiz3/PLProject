@@ -1,5 +1,4 @@
-import sys
-from PySharp_executable import PySharp_Parse as parser
+import PySharp_Parse as parser
 
 
 print("Welcome to PySharp")
