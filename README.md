@@ -1,4 +1,3 @@
-"# PySharp" 
 # About
 PySharp is a scripting language with the purpose of providing a simple framework to create scales (A,B,C,D,E,F,G) with different types (Melodic, Harmonic, Natural)
 
@@ -8,11 +7,11 @@ On the music industry, becoming a professional requires a lot of practice. To ac
 ### Language Features
 PySharp Features:
 
-Note Control: Allows alteration of the notes with which the scale is created
+Note Control: Allows alteration of the notes with which the scale is created.
 
 Scale Creation: Allows creation of scales and their starting point. 
 
-Scale Alteration: Allows Scale alteration using one of the following
+Scale Alteration: Allows Scale alteration using one of the following.
 
 - Harmonic 
 - Melodic
