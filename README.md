@@ -7,10 +7,16 @@ On the music industry, becoming a professional requires a lot of practice. To ac
 
 ### Language Features
 PySharp Features:
+
 Note Control: Allows alteration of the notes with which the scale is created
-Scale Creation: Allows creation of scales and their starting point. Scale Alteration​: Allows Scale alteration using one of the following
+
+Scale Creation: Allows creation of scales and their starting point. 
+
+Scale Alteration: Allows Scale alteration using one of the following
+
 - Harmonic 
 - Melodic
 - Natural
+
 Scale Demonstration: Plays the created Scale
 
