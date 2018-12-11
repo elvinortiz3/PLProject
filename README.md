@@ -19,3 +19,5 @@ Scale Alteration: Allows Scale alteration using one of the following.
 
 Scale Demonstration: Plays the created Scale
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SXIZRwJNH4M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
