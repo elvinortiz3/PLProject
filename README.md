@@ -4,6 +4,9 @@ PySharp is a scripting language with the purpose of providing a simple framework
 ## Motivation
 On the music industry, becoming a professional requires a lot of practice. To achieve this goal, people should start at a young age but also practice a lot. When musicians have a great basic knowledge on music and its time to go to the next level, they are taught what is called the Circle of Fifths. This Circle of Fifths is a special tool to practice not just theoretical music, but also practical. The concept is based on the existing musical notes (C, G, D, A, E, B, F#). The purpose of this exercises is to let the musician play the scale for each of the musical notes but with different alterations. Each of the musical notes has its own scale. There are 3 types of scales: Natural, Harmonic and Melodic. 
 
+<img class="aligncenter wp-image-41065" src="https://www.musical-u.com/wp-content/uploads/2017/07/MU-Circle-of-Fifths-3-with-Key-Signatures-1024x1024.png" alt="Circle of Fifths With Major Keys and Their Key Signatures Shown" width="600" height="600" srcset="https://www.musical-u.com/wp-content/uploads/2017/07/MU-Circle-of-Fifths-3-with-Key-Signatures-1024x1024.png 1024w, https://www.musical-u.com/wp-content/uploads/2017/07/MU-Circle-of-Fifths-3-with-Key-Signatures-150x150.png 150w, https://www.musical-u.com/wp-content/uploads/2017/07/MU-Circle-of-Fifths-3-with-Key-Signatures-300x300.png 300w, https://www.musical-u.com/wp-content/uploads/2017/07/MU-Circle-of-Fifths-3-with-Key-Signatures-768x768.png 768w, https://www.musical-u.com/wp-content/uploads/2017/07/MU-Circle-of-Fifths-3-with-Key-Signatures-1080x1080.png 1080w" sizes="(max-width: 600px) 100vw, 600px">
+
+
 ### Language Features
 PySharp Features:
 
